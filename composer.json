@@ -1,0 +1,15 @@
+{
+    "name": "e/lake",
+    "description": "sup! i'm description",
+    "require": {
+        "components/normalize.css": "^3.0",
+        "contao-components/mediaelement": "^2.18",
+        "components/jquery": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "evgkit",
+            "email": "kitaev.ea@gmail.com"
+        }
+    ]
+}
