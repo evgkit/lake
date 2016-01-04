@@ -1,0 +1,26 @@
+.primary-content {
+  @extend %centered;
+  @extend %t-border;
+  @extend %content;
+  padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+  @extend %t-border;
+  @extend %content;
+  @extend %clearfix;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+
+.wildlife {
+  color: white;
+  padding: 18% 24%;
+  border-top: 10px solid #ffa949;
+  margin: 105px 0 60px;
+  background: #434a52 url('../img/bear.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: 0 15px 10px -12px rgba(0, 0, 0, .8);
+}
