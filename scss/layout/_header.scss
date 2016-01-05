@@ -1,9 +1,14 @@
 .main-header {
   @extend %centered;
-  background: linear-gradient(#ffa949, transparent 90%),
-  linear-gradient(0deg, #ffffff, transparent),
-  #ffa949 url('../img/mountains.jpg') no-repeat center / cover;
+  background: linear-gradient($color-prim, transparent 90%),
+              linear-gradient(0deg, $color-body, transparent),
+              $color-prim url('#{$path-img}/mountains.jpg') no-repeat center / cover;
   padding-top: 170px;
   height: 850px;
-  text-shadow: 0 0 5px #be7b31;
+  text-shadow: 0 0 5px $color-shadow-header;
+
+  @media #{$break-narrow} {
+    max-height: 380px;
+    padding: 50px 25px 0;
+  }
 }

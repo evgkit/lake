@@ -2,5 +2,9 @@
   @extend %centered;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 10px solid #ffa949;
+  border-bottom: 10px solid $color-border-dark;
+
+  @media #{$break-narrow} {
+    padding: 20px 0;
+  }
 }

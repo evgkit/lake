@@ -5,7 +5,7 @@
 
 // Top border
 %t-border {
-  border-top: 2px solid #dfe2e6;
+  border-top: 2px solid $color-border-light;
 }
 
 // Containers
@@ -15,11 +15,26 @@
   padding-right: 50px;
   margin: auto;
   max-width: 960px;
+
+  @media #{$break-narrow} {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+
+  @media #{$break-wide} {
+    width: 90%;
+  }
 }
 
 // Columns
 %columns {
-  width: 46.5%
+  width: 46.5%;
+
+  @media #{$break-narrow} {
+    float: none;
+    width: 100%;
+  }
 }
 
 // Clearfix
