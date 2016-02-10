@@ -50,3 +50,5 @@ crashlytics-build.properties
 
 vendor
 .sass-cache
+
+node_modules
