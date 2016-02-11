@@ -36,8 +36,8 @@ $stack-abolition    : 'Abolition Regular', $stack-sans-serif;
 $border-radius-main : 10px;
 
 // Assets path
-$path-img : '../img';
-$path-font: '../fonts';
+$path-img : 'assets/img';
+$path-font: 'assets/fonts';
 
 // Media query breakpoints
 $break-narrow: '(max-width: 768px)';
